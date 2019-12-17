@@ -1,5 +1,5 @@
 How to use Flask :
-1. Create a new Folder
+1. Create a new Folder and copy all files above
 2. Install virtual env : 
   - pip install virtualenv
   Then:
@@ -8,4 +8,5 @@ How to use Flask :
   - source env/bin/activate
 4. Run python file :
   - python app.py
-
+  
+Remember only submit image from test folder (^_^)!
