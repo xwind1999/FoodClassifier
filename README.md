@@ -11,4 +11,5 @@ How to use Flask :
 
 Note:  
 -Remember only submit image from test folder (^_^)!
+
 -Copy the file Hieubui.h5 to the folder which was created a minute ago 
