@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Home</title>
+    <script src="{{url_for('static',filename='script.js')}}"></script>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>    
+</head>
+<body>
+    <h2>Input Image</h2>
+    <img id="image" height = "250" width="250">
+    <form action = "/result" method = "POST">
+        <input type="file" name = "filename" accept="image/gif, image/jpeg, image/png" onchange="document.getElementById('image').src = window.URL.createObjectURL(this.files[0])">
+        <input type="submit" value = "submit"> 
+    </form>
+</body>
+</html>
