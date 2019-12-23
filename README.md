@@ -12,7 +12,7 @@ How to use Flask :
 Note:  
 - Remember only submit image from test folder (^_^)!
 
-- Copy the file Hieubui.h5 to the folder which was created a minute ago
+- Copy the file VGG19.h5 and VGG16.h5 to the folder which was created a minute ago
 
 - After run python file, go to localhost:5000
 
