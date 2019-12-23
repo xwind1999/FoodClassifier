@@ -11,7 +11,9 @@
     <h2>Input Image</h2>
     <img id="image" height = "500" width="500">
     <form action = "/result" method = "POST">
-        <input type="file" name = "filename" accept="image/gif, image/jpeg, image/png" onchange="document.getElementById('image').src = window.URL.createObjectURL(this.files[0])">
+        <input type="file" name = "filename" accept="image/gif, image/jpeg, image/png" onchange="document.getElementById('image').src = window.URL.createObjectURL(this.files[0])"><br>
+        <input type="radio" name = "model" value = "VGG19" checked>VGG19<br>
+        <input type="radio" name = "model" value = "VGG16">VGG16<br>
         <input type="submit" value = "submit"> 
     </form>
 </body>

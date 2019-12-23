@@ -7,7 +7,8 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' href="{{ url_for('static',filename='css/result.css') }}">
 </head>
-<body>
+<body>  
+        <h1>Model : {% print(model) %}</h1>
         <h1>Predict : {% print(result) %}</h1>
         <h1>Accuracy : {% print(percent) %} %</h1>
 </body>
